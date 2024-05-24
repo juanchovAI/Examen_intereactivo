@@ -27,7 +27,17 @@ function Evaluacion() {
         <App />
         <Segundo />
         <Tercero />
-        <button onClick={savePageAsPDF}>Guardar como PDF</button>
+        <button
+          className="button"
+          style={{
+            margin: "100px 10px",
+            background: "#1A4D2E",
+            color: "#F5EFE6",
+          }}
+          onClick={savePageAsPDF}
+        >
+          Guardar
+        </button>
       </div>
     </>
   );
