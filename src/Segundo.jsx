@@ -26,7 +26,7 @@ function Segundo() {
             Juan Pablo Reyes trabaja como editor para el canal RCN, entre sus
             funciones se encuentra la edición de la serie-novela “La rosa de
             Guadalupe”, Juan Pablo debe recortar los capítulos para incluir las
-            pautas comerciales, por contrato le productora exige que cada
+            pautas comerciales, cada
             capítulo dure por lo menos 0.35 horas.
           </p>
           <p>
@@ -37,7 +37,7 @@ function Segundo() {
             la pauta respetando el tiempo mínimo que impone el contrato.
           </p>
           <p>Teniendo en cuenta la siguiente tabla:</p>
-          <table style={{ width: "100%" }}>
+          <table style={{ width: "100%", }}>
             <thead style={{ color: "#1A4D2E", fontWeight: "bold" }}>
               <tr>
                 <td>Capítulo</td>
@@ -62,9 +62,8 @@ function Segundo() {
           <p>
             ¿Puede Juan pablo atender a la solicitud de Ana María y respetar el
             tiempo por capítulo establecido en el contrato? de ser así ¿Cuánto
-            le debe recortar a cada capítulo entonces Juan Pablo? De no ser así
-            ¿Cuánto sería la duración mínima que deberían proponerle a la
-            productora, para poder hacerle campo a las 2.4 horas de pauta que
+            le debe recortar Juan Pablo a cada capítulo? De no ser así
+            ¿Cuánto sería la duración mínima que deberían tener los capítulos para poder hacerle campo a las 2.4 horas de pauta que
             pide Ana María?
           </p>
         </div>

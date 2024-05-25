@@ -1,8 +1,7 @@
 function Nombre() {
   return (
     <div>
-      <h1>Test No. 4 </h1>
-      <h1 style={{ marginTop: "-40px" }}>Operaciones con números decimales</h1>
+      <h1>{"¿Cuánto aprendiste sobre \n operaciones con números decimales?"}</h1>
       <div style={{ display: "flex" }}>
         <h2>Nombre:</h2>
         <input

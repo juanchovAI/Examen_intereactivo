@@ -40,3 +40,8 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+table, th, tbody, td, thead{
+  border: solid 1.5px #1A4D2E;
+  padding:5px 
+}

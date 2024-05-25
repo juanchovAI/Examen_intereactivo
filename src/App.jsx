@@ -44,7 +44,7 @@ function App() {
   return (
     <>
       <div>
-        <h3 style={{ color: "#1A4D2E" }}>Primer punto</h3>
+        <h3 style={{ color: "#1A4D2E" }}>Practiquemos con la tabla de posiciones</h3>
         <p style={{ color: "#4F6F52" }}>
           Usando la tabla de posiciones representa el número {numero}
         </p>
