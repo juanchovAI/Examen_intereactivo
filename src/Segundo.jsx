@@ -6,7 +6,7 @@ function Segundo() {
   return (
     <div>
       <hr style={{ border: " 2px solid #E8DFCA", marginTop: "100px" }} />
-      <h3>Segundo punto</h3>
+      <h3>¡Que novela!</h3>
 
       <div
         style={{
@@ -26,18 +26,17 @@ function Segundo() {
             Juan Pablo Reyes trabaja como editor para el canal RCN, entre sus
             funciones se encuentra la edición de la serie-novela “La rosa de
             Guadalupe”, Juan Pablo debe recortar los capítulos para incluir las
-            pautas comerciales, cada
-            capítulo dure por lo menos 0.35 horas.
+            pautas comerciales, cada capítulo dure por lo menos 0.35 horas.
           </p>
           <p>
             Ana María, la jefe de Juan, le solicita hacer espacio para una pauta
-            comercial total de 2.4 horas en los próximos cinco capítulos, Juan
+            comercial total de 2.2 horas en los próximos cinco capítulos, Juan
             tiene una tabla de registro con la duración exacta de cada capítulo,
             pero no está seguro de si puede recortar lo suficiente para incluir
             la pauta respetando el tiempo mínimo que impone el contrato.
           </p>
           <p>Teniendo en cuenta la siguiente tabla:</p>
-          <table style={{ width: "100%", }}>
+          <table style={{ width: "100%" }}>
             <thead style={{ color: "#1A4D2E", fontWeight: "bold" }}>
               <tr>
                 <td>Capítulo</td>
@@ -57,14 +56,22 @@ function Segundo() {
                 <td>“Ruby, la venganza” </td>
                 <td>0.5 horas</td>
               </tr>
+              <tr>
+                <td>“La hija de nadie” </td>
+                <td>1.2 horas</td>
+              </tr>
+              <tr>
+                <td>“Se nos fue la luz” </td>
+                <td>0.35 horas</td>
+              </tr>
             </tbody>
           </table>
           <p>
             ¿Puede Juan pablo atender a la solicitud de Ana María y respetar el
             tiempo por capítulo establecido en el contrato? de ser así ¿Cuánto
-            le debe recortar Juan Pablo a cada capítulo? De no ser así
-            ¿Cuánto sería la duración mínima que deberían tener los capítulos para poder hacerle campo a las 2.4 horas de pauta que
-            pide Ana María?
+            le debe recortar Juan Pablo a cada capítulo? De no ser así ¿Cuánto
+            sería la duración mínima que deberían tener los capítulos para poder
+            hacerle campo a las 2.4 horas de pauta que pide Ana María?
           </p>
         </div>
       </div>

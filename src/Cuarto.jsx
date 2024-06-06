@@ -58,9 +58,41 @@ function Cuarto() {
           </p>
         </div>
       </div>
+
       <div
-        style={{ display: "flex", justifyContent: "center", marginTop: "50px" }}
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          marginTop: "50px",
+          flexDirection: "column",
+        }}
       >
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            width: "360px",
+            gap: "15px",
+          }}
+        >
+          <div
+            style={{
+              width: "100%",
+              height: "2px",
+              background: "#1a4d2e",
+            }}
+          ></div>
+          <p style={{ width: "150px" }}>3.5 m</p>
+          <div
+            style={{
+              width: "100%",
+              height: "2px",
+              background: "#1a4d2e",
+            }}
+          ></div>
+        </div>
+
         <div
           style={{
             background: "rgb(0, 194, 255)",
@@ -87,21 +119,53 @@ function Cuarto() {
               }}
             ></div>
           </div>
-          <div style={{ width: "175px", height: "250px" }}>
-            <div
-              style={{
-                border: valor_borde + " solid black",
-                width: anchoVentana,
-                height: altoVentana,
-              }}
-            ></div>
-            <div
-              style={{
-                border: valor_borde + " solid black",
-                width: anchoVentana,
-                height: altoVentana,
-              }}
-            ></div>
+          <div style={{ display: "flex" }}>
+            <div>
+              <div style={{ width: "175px", height: "250px" }}>
+                <div
+                  style={{
+                    border: valor_borde + " solid black",
+                    width: anchoVentana,
+                    height: altoVentana,
+                  }}
+                ></div>
+                <div
+                  style={{
+                    border: valor_borde + " solid black",
+                    width: anchoVentana,
+                    height: altoVentana,
+                  }}
+                ></div>
+              </div>
+            </div>
+            <div style={{ display: "flex", justifyContent: "center" }}>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  flexDirection: "column",
+                  height: "270px",
+                  gap: "15px",
+                  width: "100px",
+                }}
+              >
+                <div
+                  style={{
+                    width: "2px",
+                    height: "100%",
+                    background: "#1a4d2e",
+                  }}
+                ></div>
+                <p>2.5 m</p>
+                <div
+                  style={{
+                    width: "2px",
+                    height: "100%",
+                    background: "#1a4d2e",
+                  }}
+                ></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -161,15 +225,38 @@ function Cuarto() {
           </div>
         </div>
 
-        <div>
-          <p>
-            Usa estas dos casillas para ingresar tus respuestas, nota que hay
-            una para el ancho y otra para el alto que tendrá cada uno de los
-            cuatro vidrios. Puedes ingresar los valores que son resultado de tus
-            cálculos. Los vidrios aumentarán o disminuirán de tamaño de acuerdo
-            a los valores ingresados y podrás comprobar si has acertado. Solo
-            tendrás 3 oportunidades.
-          </p>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+          }}
+        >
+          <ul>
+            <li>
+              Usa las dos casillas para ingresar tus respuestas, nota que hay
+              una para el ancho y otra para el alto que tendrá cada uno de los
+              cuatro vidrios.
+            </li>
+            <li>
+              Puedes ingresar los valores que son resultado de tus cálculos. Los
+              vidrios aumentarán o disminuirán de tamaño de acuerdo a los
+              valores ingresados y podrás comprobar si has acertado.
+            </li>
+            <li>Solo tendrás 3 oportunidades.</li>
+          </ul>
+
+          <div
+            style={{
+              background: "#1a4d2e",
+              display: intentos >= 1 && intentos <= 3 ? "block" : "none",
+            }}
+          >
+            <p style={{ color: "wheat", padding: "15px", borderRadius: "15%" }}>
+              Compara la medida del marco de la imagen de arriba, si cuadra a la
+              perfección has encontrado la respuesta, si no debes seguir
+              intentando
+            </p>
+          </div>
         </div>
       </div>
     </>

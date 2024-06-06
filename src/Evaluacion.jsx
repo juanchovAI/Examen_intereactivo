@@ -3,7 +3,7 @@ import Nombre from "./nombre.jsx";
 
 import Segundo from "./Segundo.jsx";
 import Tercero from "./Tercero.jsx";
-import Cuarto from "./Cuarto.jsx"
+import Cuarto from "./Cuarto.jsx";
 
 import html2pdf from "html2pdf.js";
 

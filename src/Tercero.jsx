@@ -7,7 +7,7 @@ function Tercero() {
   return (
     <div>
       <hr style={{ border: " 2px solid #E8DFCA", marginTop: "100px" }} />
-      <h3>Tercero punto</h3>
+      <h3>Vacas vs Pollitos</h3>
 
       <div style={{ width: "100%" }}>
         <p>
